@@ -1,46 +1,31 @@
-# PalPay USSD Launcher 📱⚡
+# PalPay USSD Launcher 📱💳
 
-تطبيق أندرويد مصمم لتسهيل وتسريع عمليات الدفع الإلكتروني والتحويلات المالية عبر خدمات USSD المصرفية.
+[![Android](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)](https://android.com)
+[![Kotlin](https://img.shields.io/badge/Language-Kotlin-7F52FF?logo=kotlin&logoColor=white)](https://kotlinlang.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
----
-
-## 🌟 نبذة عن المشروع (Overview)
-
-**PalPay USSD Launcher** هو تطبيق أندرويد أصلي (Native Android) يهدف إلى تسهيل الوصول إلى خدمات USSD الخاصة بأنظمة الدفع والتحويل المالي مثل PalPay وجوال باي والخدمات البنكية، عبر واجهة تفاعلية حديثة تختصر الوقت وتوفر تجربة استخدام سريعة وآمنة.
+A specialized Android launcher utility streamlining access to USSD banking protocols, e-wallets, and mobile payment operations through an intuitive, quick-access user interface.
 
 ---
 
-## ✨ المميزات الرئيسية (Key Features)
+## 🌟 Highlights
 
-- **إطلاق فوري لخدمات USSD:** تنفيذ طلبات التحويل والاستعلام بنقرة واحدة.
-- **واجهة مستخدم حديثة:** مبنية باستخدام Material 3 و Jetpack Compose.
-- **حفظ الاختصارات والمعاملات المتكررة:** إمكانية تخصيص وتخزين العمليات الأكثر استخداماً.
-- **أمان وخصوصية تامة:** يعمل دون الحاجة إلى خوادم وسيطة، والبيانات مخزنة بالكامل على الجهاز.
-- **دعم الأجهزة المتعددة:** متوافق مع مختلف إصدارات نظام Android وإعدادات شرائح الاتصال المزدوجة (Dual SIM).
-
----
-
-## 🛠️ التقنيات المستخدمة (Tech Stack)
-
-- **Language:** Kotlin
-- **UI Toolkit:** Jetpack Compose & Material 3
-- **Build System:** Gradle (Kotlin DSL)
-- **Architecture:** MVVM / Clean Architecture
+- **⚡ 1-Tap USSD Execution:** Trigger complex USSD sequences without manual dial pad entry.
+- **📶 Multi-SIM / Dual-SIM Support:** Automatically routes commands to the correct carrier SIM slot.
+- **⭐ Favorites & Fast Shortcuts:** Pin frequently used banking operations for instantaneous access.
+- **🔒 Secure & Zero Data Exposure:** No external network requests; operations run locally through Android Telephony APIs.
 
 ---
 
-## 🚀 التثبيت والبناء (Build & Run)
+## 🚀 Quickstart
 
 ```bash
-# استنساخ المشروع
 git clone https://github.com/monestw-cell/palpay-ussd-launcher.git
 cd palpay-ussd-launcher
-
-# بناء حزمة APK
 ./gradlew assembleRelease
 ```
 
 ---
 
-## 📄 الترخيص (License)
-هذا المشروع مرخص تحت رخصة [MIT](LICENSE).
+## 📄 License
+Licensed under the [MIT License](LICENSE).
